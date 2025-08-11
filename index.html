@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FriendConnect</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="app">
+        <h1>FriendConnect</h1>
+        <div id="auth">
+            <h2>Register</h2>
+            <input type="text" id="reg-username" placeholder="Username" />
+            <input type="password" id="reg-password" placeholder="Password" />
+            <button id="register">Register</button>
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username" />
+            <input type="password" id="login-password" placeholder="Password" />
+            <button id="login">Login</button>
+        </div>
+        <div id="dashboard" class="hidden">
+            <p>Logged in as <span id="current-user"></span></p>
+            <h2>Add Friend</h2>
+            <input type="text" id="friend-name" placeholder="Friend Username" />
+            <select id="privacy-level">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+            </select>
+            <button id="add-friend">Add Friend</button>
+            <h2>Friend List</h2>
+            <ul id="friend-list"></ul>
+            <button id="logout">Logout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
