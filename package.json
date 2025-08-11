@@ -1,0 +1,8 @@
+{
+  "name": "friendconnect",
+  "version": "1.0.0",
+  "description": "Simple friend-making website with privacy options",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  }
+}
